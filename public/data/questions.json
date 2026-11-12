@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "level": "Dễ",
+    "question": "Trong React, hook nào dùng để quản lý state trong function component?",
+    "answers": [
+      "useEffect",
+      "useState",
+      "useRef",
+      "useMemo"
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 2,
+    "level": "Dễ",
+    "question": "Props trong React được dùng chủ yếu để làm gì?",
+    "answers": [
+      "Lưu dữ liệu toàn cục",
+      "Truyền dữ liệu từ component cha xuống component con",
+      "Tạo vòng lặp",
+      "Gọi API"
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 3,
+    "level": "Dễ",
+    "question": "Hook nào thường dùng để xử lý side effect?",
+    "answers": [
+      "useEffect",
+      "useState",
+      "useContext",
+      "useId"
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 4,
+    "level": "Trung bình",
+    "question": "Hàm cleanup trong useEffect được gọi khi nào?",
+    "answers": [
+      "Chỉ khi component được tạo",
+      "Trước lần chạy effect tiếp theo và khi component unmount",
+      "Sau mỗi lần click",
+      "Chỉ khi có lỗi"
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 5,
+    "level": "Trung bình",
+    "question": "Hàm nào phù hợp để lọc các phần tử của mảng theo điều kiện?",
+    "answers": [
+      "map()",
+      "reduce()",
+      "filter()",
+      "findIndex()"
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 6,
+    "level": "Trung bình",
+    "question": "Trong React Router, hook nào đọc dữ liệu state được truyền qua navigate?",
+    "answers": [
+      "useParams",
+      "useLocation",
+      "useNavigate",
+      "useSearchParams"
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 7,
+    "level": "Trung bình",
+    "question": "Muốn cộng dồn điểm trong một mảng answers, phương thức nào phù hợp nhất?",
+    "answers": [
+      "find()",
+      "filter()",
+      "reduce()",
+      "sort()"
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 8,
+    "level": "Trung bình",
+    "question": "Khi dùng setInterval trong useEffect, cleanup thường cần gọi hàm nào?",
+    "answers": [
+      "clearTimeout()",
+      "clearInterval()",
+      "stopInterval()",
+      "removeInterval()"
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 9,
+    "level": "Khó",
+    "question": "Khi cập nhật state là một mảng, cách nào dưới đây tránh sửa trực tiếp state?",
+    "answers": [
+      "items.push(item)",
+      "items[0] = item",
+      "setItems([...items, item])",
+      "items.pop()"
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 10,
+    "level": "Khó",
+    "question": "Phương thức find() trả về điều gì?",
+    "answers": [
+      "Mảng mới gồm mọi phần tử phù hợp",
+      "Phần tử đầu tiên thỏa mãn điều kiện hoặc undefined",
+      "Số lượng phần tử phù hợp",
+      "Mảng đã sắp xếp"
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 11,
+    "level": "Khó",
+    "question": "Effect có const id = setInterval(tick, 1000); thì hàm cleanup nên làm gì?",
+    "answers": [
+      "Gọi setInterval(tick, 0)",
+      "Gọi clearTimeout(id)",
+      "Gọi clearInterval(id)",
+      "Không cần cleanup"
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 12,
+    "level": "Khó",
+    "question": "Trong React Router v6, cách khai báo chuyển hướng có điều kiện trong JSX là gì?",
+    "answers": [
+      "<Redirect to='/' />",
+      "<Navigate to='/' replace />",
+      "<Link redirect='/' />",
+      "history.push('/')"
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 13,
+    "level": "Khó",
+    "question": "Muốn sắp xếp mảng state mà không thay đổi mảng gốc, nên làm gì?",
+    "answers": [
+      "history.sort(...)",
+      "sort(history)",
+      "[...history].sort(...)",
+      "history.reverse()"
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 14,
+    "level": "Khó",
+    "question": "Sự kiện bàn phím toàn cục được đăng ký trong useEffect cần được gỡ bằng cách nào?",
+    "answers": [
+      "clearInterval()",
+      "removeEventListener()",
+      "clearTimeout()",
+      "deleteListener()"
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 15,
+    "level": "Khó",
+    "question": "Để lưu dữ liệu dạng object vào localStorage, thao tác phù hợp là gì?",
+    "answers": [
+      "localStorage.setItem(key, object)",
+      "localStorage.setItem(key, JSON.stringify(object))",
+      "localStorage.save(object)",
+      "localStorage.push(object)"
+    ],
+    "correct": "B"
+  }
+]
